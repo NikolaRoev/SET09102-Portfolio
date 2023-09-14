@@ -21,7 +21,7 @@ The template Visual Studio project that is automatically generated when using th
 
 ![Alt text](images/week2/template-exe.png)
 <figcaption align = "center">Fig.2</figcaption>
-The running template application. The is the .exe file after the project was build in the Release configuration.
+The running template application. The is the .exe file after the project was built in the Release configuration.
 
 
 ![Alt text](images/week2/github-repo.png)
