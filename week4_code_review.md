@@ -1,25 +1,36 @@
 # Code review
 
-This section documents your practical work from week 4 in which you attempt a series of 
-code review challenges. For your portfolio, do the following:
+```C#
+class Car
+{
+  public string model;
 
-1. Choose the code review challenge which best demonstrates your skills.
-2. Copy the code into your portfolio using a Markdown
-   [fenced code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
-3. Provide some descriptive commentary that identifies the problems.
-4. Show your improved version of the code in a second code block.
-5. Explain in one or more paragraphs why your solution is a good one.
+  // Class constructor
+  public Car()
+  {
+    model = "Mustang"; // Set the initial value for model
+  }
 
-**DO**
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Console.WriteLine(Ford.model);
+  }
+}
+```
 
-* Use grammatically correct sentences and paragraphs for your commentary.
-* Make clear reference to the code in your commentary. GitHub Markdown does not support
-  line numbers and so you need to make sure that the reader knows which line you are
-  referring to from your description.
-* Refer to recognised principles or rules when describing your solution. "I thought it
-  would be better that way" is not sufficient: you need to have specific reasons.
+- The property "model" should be uppercase. Could probably user a getter and setter functions, depending on how we might use it.
+- Indentation is consistent but could be 4 spaces rather than 2. Do we really need a comment that the constructor is a constructor, etc.
 
-**DON'T**
+```C#
+class Car {
+    public string Model { get; set; } = "Mustang";
 
-* Include multiple examples. Make the decision about which example shows your best
-  work and use that one.
+    static void Main() {
+        Car Ford = new();
+        Console.WriteLine(Ford.Model);
+    }
+}
+```
+
+Following C# best practices I renamed the public property 'model' to be uppercase. Following the KISS principle I simplified the class by removing the constructor, adding a getter and a setter, and setting 'Model' to the initial default value.
