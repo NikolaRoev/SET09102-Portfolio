@@ -1,18 +1,17 @@
 # Testing
 
-The practical exercise in week 6 involved competitive testing. For your portfolio entry,
-select two pieces of test code that you wrote that best illustrate your skills in this
-area.
+I was testing the functionality of the `SelectWord` function of the game. Unfortunately the function was private and tied within the `ContentPage` MAUI class making unit testing difficult, thus the examples I have given are more theoretical as we couldn't get the tests working. The function in question selects the word for the game depending on a difficulty string input. While the contents of this string will not come directly from a user, it is still good to check the functionality when an invalid input is given. In a real world project this would be vital testing, as not correctly handling this can lead to a cascading failure.
 
-For each example
+```C#
+[Fact]
+public void EmptyStringInput() {
+    Assert.ThrowsAsync<Exception>(() => new GamePage(""));
+}
 
-* Summarise the purpose of the code you were testing
-* Include the test code
-* Provide a brief explanation of the test(s) that are performed
-* Explain why this is an important aspect of the code to test
-* Identify any limitations of your tests (this may be something that you realised after
-  the evaluation).
+[Fact]
+public void InvalidStringInput() {
+    Assert.ThrowsAsync<Exception>(() => new GamePage("INVALID GAME TYPE STRING"));
+}
+```
 
-Did you manage to write a test which failed during the final evaluation? If so, that would
-make an excellent example. You should briefly discuss why the writer of the code might 
-have overlooked the particular test case that failed.
+We test both an empty string and an invalid string. We assume that this must throw an exception that will be caught and handled somewhere outside of the word selection abstraction.
