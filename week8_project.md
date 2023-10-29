@@ -1,21 +1,29 @@
-# Project work 1
+## Description
 
-In week 8, you are exercising all the principles and techniques that have been discussed 
-in the module so far. Your portfolio entry should demonstrate your ability to integrate 
-the various dimensions of software engineering into your practice. It should include 
+Issue: https://github.com/Software-Engineering-Red/MAUI-APP/issues/62
+PR: https://github.com/Software-Engineering-Red/MAUI-APP/pull/90
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+The requirements for the issue is to be able to list partner agencies and their current association status. The list should also be filterable.
 
-Be sure to include links to the original items in the team's GitHub repository.
+A new table containing partner agencies names and association statuses needs to be added, as well as a filtered list view.
 
+```SQL
+-- The query for the new table.
+CREATE TABLE IF NOT EXISTS partner_agencies (Id INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT NOT NULL)
+```
+
+Due to how the project is currently structured the association status can not be added without a major rewrite, which I have touched upon in my PR comment, but this should be a good start on adding the functionality. As a plus, the way the code has been currently written does make it quite easy to add new tables.
+
+## Reviews
+
+No issues were found by the reviewer for the functionality I have added.
+
+Reviewed issue: https://github.com/Software-Engineering-Red/MAUI-APP/pull/94
+The issue I reviewed had a small problem that I quickly fixed to speed up the process, but everything worked as expected and best practices were followed.
+
+## Reflection
+
+- I got a little bit more familiar with the review process.
+- Following a common workflow has really helped streamline the process of adding new functionality to the project.
+- Not having a person in charge (like a project manager) does make it very hard to make core changes to the project.
+- The team has discussed a rewrite so it is easier to add new functionality.
