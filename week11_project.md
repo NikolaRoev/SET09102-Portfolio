@@ -1,8 +1,8 @@
-# Project work 2
+# Project work 4
 
-In week 9, you are continuing with the team project. Your portfolio entry should 
-demonstrate how your software engineering practice is improving. It should include
-much the same content as last week's:
+Week 10 is the fourth in a series in which the goal is to improve your 
+personal software engineering practice. Your portfolio entry has the same general content
+as last week's, including:
 
 * A descriptive summary of the issue that you worked on.
 * Snippets from your code with commentary showing how you have used good software design 
@@ -19,15 +19,10 @@ much the same content as last week's:
 
 Be sure to include links to the original items in the team's GitHub repository.
 
-In the reflective sections, try to identify things that you have done better this week. 
-This could include, for example,
-
-* Better application of the principles of clean code.
-* Avoiding the repetition of previous mistakes.
-* More comprehensive test coverage.
-* Adoption of a more systematic personal workflow.
-* Improved identification of problems in other people's code.
-* etc.
+In the reflective sections this week, you should highlight ways that you persona practice
+has improved as before. It would also be good to reflect on any improvements that have
+been made to the agreed team workflow and related procedures. Are things working
+better than they were? What further improvements could be made in the future?
 
 ## Marking
 
@@ -35,8 +30,8 @@ The marks for this portfolio entry will be split as follows:
 
 * Timeliness: 5 marks (one mark will be deducted for each day or partial day that the submission 
   is late).
-* Description: 2 marks are awarded for the descriptive content. Please remember that this 
-  material will be useful to you in the end-of-module interview, so it is in your interests to
-  make the content detailed and easy to follow.
-* Reflection: 3 marks are awarded for the quality of reflection. Again, you should think of this 
+* Description: 1 mark is awarded for the descriptive content. You are guaranteed at least one 
+  question on this entry in the final interview assessment. Please do not skimp on the 
+  descriptive content. 
+* Reflection: 4 marks are awarded for the quality of reflection. Again, you should think of this 
   as preparation for the interview assessment.
