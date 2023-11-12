@@ -1,37 +1,19 @@
 # Project work 3
 
-Week 10 is the third week in a series in which the goal is to improve your 
-personal software engineering practice. Your portfolio entry has the same general content
-as last week's, including:
+## Description
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+Issue: https://github.com/Software-Engineering-Red/MAUI-APP/issues/77
 
-Be sure to include links to the original items in the team's GitHub repository.
+I had to implement staff rotas. The rotas needed to be associated with a location and be eligible only to specific team members. Eligible members can be assigned for a specific amount of time. A calender of rotas needed to be available.
 
-In the reflective sections this week, you should highlight ways that you persona practice
-has improved as before. It would also be good to reflect on any improvements that have
-been made to the agreed team workflow and related procedures. Are things working
-better than they were? What further improvements could be made in the future?
+This issue is a lot more complicated than previous issues, so unfortunately I was no able to finish it this week.
 
-## Marking
+## Reviews
 
-The marks for this portfolio entry will be split as follows:
+Reviewed PR: https://github.com/Software-Engineering-Red/MAUI-APP/pull/132
 
-* Timeliness: 5 marks (one mark will be deducted for each day or partial day that the submission 
-  is late).
-* Description: 2 marks are awarded for the descriptive content. Please remember that this 
-  material will be useful to you in the end-of-module interview, so it is in your interests to
-  make the content detailed and easy to follow.
-* Reflection: 3 marks are awarded for the quality of reflection. Again, you should think of this 
-  as preparation for the interview assessment.
+There were some issues with the ticket I reviewed. The data needed was hardcoded in the Experts class and did not use the database. Some better encapsulation was also needed. 
+
+## Reflection
+
+The ticket I am working on now is quite a bit more complicated than previous ones, requiring a wide range of functionality. My MAUI knowledge is lacking for me to be able to implement it in a week. Another issue is that the application is structured in a way that makes it hard to interface with the other tables, thus making relying on JOINs and foreign keys hard.
