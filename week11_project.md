@@ -1,37 +1,20 @@
 # Project work 4
 
-Week 10 is the fourth in a series in which the goal is to improve your 
-personal software engineering practice. Your portfolio entry has the same general content
-as last week's, including:
+## Description
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+Issue: https://github.com/Software-Engineering-Red/MAUI-APP/issues/77
+PR: https://github.com/Software-Engineering-Red/MAUI-APP/pull/142
 
-Be sure to include links to the original items in the team's GitHub repository.
+I modified the Rota object to now have a location and validity. I also added a Rota pool object that will be used to make the table that will hold the information of which team member is assignable to which rota and if assigned for how long.
 
-In the reflective sections this week, you should highlight ways that you persona practice
-has improved as before. It would also be good to reflect on any improvements that have
-been made to the agreed team workflow and related procedures. Are things working
-better than they were? What further improvements could be made in the future?
+## Reviews
 
-## Marking
+PR: https://github.com/Software-Engineering-Red/MAUI-APP/pull/144
 
-The marks for this portfolio entry will be split as follows:
+There was not anything significant that needed to be changed for the review I did this week. There were some hard-coded values that could be moved to a resource file. There was also a method that was not yet implemented, but it was not critical for the needed functionality and could be added at a later time.
 
-* Timeliness: 5 marks (one mark will be deducted for each day or partial day that the submission 
-  is late).
-* Description: 1 mark is awarded for the descriptive content. You are guaranteed at least one 
-  question on this entry in the final interview assessment. Please do not skimp on the 
-  descriptive content. 
-* Reflection: 4 marks are awarded for the quality of reflection. Again, you should think of this 
-  as preparation for the interview assessment.
+## Reflection
+
+- Adding new functionality to a project that is not structured correctly is hard.
+- Restructuring a project is quite complicated.
+- I've started practising a more iterative approach when building software. It helps me better understand the technologies I am using and it improves my design process.
